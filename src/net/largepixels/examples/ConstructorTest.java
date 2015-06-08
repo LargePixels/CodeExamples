@@ -21,7 +21,7 @@ public class ConstructorTest {
 	}
 	
 	/*
-	 * Output...
+	 * Output if we ran main...
 	 * 
 	Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
 	The constructor ConstructorTest() is undefined
