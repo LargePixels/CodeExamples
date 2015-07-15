@@ -16,7 +16,7 @@ public class ConstructorTest {
 	}
 
 	public static void main(String[] args) {
-		ConstructorTest a = new ConstructorTest();  //this wont work, default constructor disappears after overloading
+		//ConstructorTest a = new ConstructorTest();  //this wont work, default constructor disappears after overloading
 		ConstructorTest b = new ConstructorTest("holler");
 	}
 	
