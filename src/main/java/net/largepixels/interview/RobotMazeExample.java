@@ -81,27 +81,28 @@ public class RobotMazeExample {
     private void runMe() {
         solveProcedurally();
         solveIteratively();
-        solveRecursively();
+        solveRecursively(new RobotMaze(), 0);
     }
 
-    private void solveRecursively() {
-        System.out.println("Still gotta write recursively...");
-    }
+    private void solveRecursively(RobotMaze robotMaze, int turnCounter) {
+        if ( robotMaze.isAtEnd()) {
+            System.out.println("We made it to the end recursively!!!");
+            return;
+        }
 
-    private void solveProcedurally() {
-        RobotMaze robotMaze = new RobotMaze();
-        robotMaze.moveFoward();
-        robotMaze.rotateRight();
-        robotMaze.moveFoward();
-        robotMaze.moveFoward();
-        robotMaze.rotateRight();
-        robotMaze.rotateRight();
-        robotMaze.rotateRight();
-        robotMaze.moveFoward();
-        robotMaze.moveFoward();
-        robotMaze.isAtEnd();
+        if (!robotMaze.moveFoward()) {
+            robotMaze.rotateRight();
+            turnCounter++;
+            if (turnCounter == 2 ) {
+                robotMaze.rotateRight();
+                turnCounter++;
+            }
+        }
+        else {
+            turnCounter = 0;
+        }
 
-        System.out.println("We made it to the end procedurally!!!");
+        solveRecursively(robotMaze, turnCounter);
     }
 
     private void solveIteratively() {
@@ -124,6 +125,22 @@ public class RobotMazeExample {
         }
 
         System.out.println("We made it to the end iteratively!!!");
+    }
+
+    private void solveProcedurally() {
+        RobotMaze robotMaze = new RobotMaze();
+        robotMaze.moveFoward();
+        robotMaze.rotateRight();
+        robotMaze.moveFoward();
+        robotMaze.moveFoward();
+        robotMaze.rotateRight();
+        robotMaze.rotateRight();
+        robotMaze.rotateRight();
+        robotMaze.moveFoward();
+        robotMaze.moveFoward();
+        robotMaze.isAtEnd();
+
+        System.out.println("We made it to the end procedurally!!!");
     }
 
 }
