@@ -1,6 +1,6 @@
-package net.largepixels.interview.net.largepixels.pie.ch04ex04;
+package net.largepixels.interview.net.largepixels.pie.ch04.ch04ex04;
 
-import net.largepixels.interview.net.largepixels.pie.ch04ex02.Node;
+import net.largepixels.interview.net.largepixels.pie.ch04.ch04ex02.Node;
 
 public class Ch04ex04 {
 

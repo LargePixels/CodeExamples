@@ -1,4 +1,4 @@
-package net.largepixels.interview.net.largepixels.pie.ch04ex02;
+package net.largepixels.interview.net.largepixels.pie.ch04.ch04ex02;
 
 public class Ch04ex02 {
 

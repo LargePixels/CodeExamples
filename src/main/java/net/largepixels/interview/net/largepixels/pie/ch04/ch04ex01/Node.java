@@ -1,4 +1,4 @@
-package net.largepixels.interview.net.largepixels.pie.ch04ex01;
+package net.largepixels.interview.net.largepixels.pie.ch04.ch04ex01;
 
 public class Node {
 

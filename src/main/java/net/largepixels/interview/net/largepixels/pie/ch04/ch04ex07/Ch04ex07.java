@@ -1,6 +1,6 @@
-package net.largepixels.interview.net.largepixels.pie.ch04ex07;
+package net.largepixels.interview.net.largepixels.pie.ch04.ch04ex07;
 
-import net.largepixels.interview.net.largepixels.pie.ch04ex01.Node;
+import net.largepixels.interview.net.largepixels.pie.ch04.ch04ex01.Node;
 
 /**
  * Created by johnminchuk on 10/29/15.
