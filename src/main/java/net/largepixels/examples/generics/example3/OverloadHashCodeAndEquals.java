@@ -1,4 +1,4 @@
-package net.largepixels.examples;
+package net.largepixels.examples.generics.example3;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -34,7 +34,7 @@ public class OverloadHashCodeAndEquals {
 		public boolean equals(Object obj) {
 			Car lhs = this;
 			Car rhs = (Car) obj;
-			
+
 			return lhs.name.equals(rhs.name) && lhs.seats == rhs.seats;
 		}
 		
