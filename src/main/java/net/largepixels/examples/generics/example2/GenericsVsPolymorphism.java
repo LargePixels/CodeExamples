@@ -31,6 +31,9 @@ public class GenericsVsPolymorphism {
 
         takeThingsGeneric2(animals);
         takeThingsGeneric2(dogs);
+
+        takeThingsGeneric3(animals);
+        takeThingsGeneric3(dogs);
     }
 
     public void takeThings(List<Animal> animals) {
@@ -52,6 +55,14 @@ public class GenericsVsPolymorphism {
         //list.add(d1);
         for (Animal animal : list) {
             animal.speak();
+        }
+    }
+
+    //this is the wildcard way to declare it
+    public void takeThingsGeneric3(List<?> list) {
+        for (Object animal : list) {
+            System.out.println(animal.getClass().getName());
+            //animal.speak();
         }
     }
 
