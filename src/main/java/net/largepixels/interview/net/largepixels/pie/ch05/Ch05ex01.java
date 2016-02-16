@@ -1,4 +1,4 @@
-package net.largepixels.interview.net.largepixels.pie.ch05ex01;
+package net.largepixels.interview.net.largepixels.pie.ch05;
 
 /**
  * Created by minchuk on 11/4/2015.
