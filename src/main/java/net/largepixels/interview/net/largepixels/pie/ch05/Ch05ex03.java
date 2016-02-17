@@ -1,7 +1,7 @@
 package net.largepixels.interview.net.largepixels.pie.ch05;
 
-import net.largepixels.interview.net.largepixels.pie.common.nodeA.BTreePrinter;
-import net.largepixels.interview.net.largepixels.pie.common.nodeA.Node;
+import net.largepixels.interviewstructures.nodes.tree.BTreePrinter;
+import net.largepixels.interviewstructures.nodes.tree.Node;
 
 /**
  * Created by johnminchuk on 2/15/16.
