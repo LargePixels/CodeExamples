@@ -1,5 +1,7 @@
 package net.largepixels.examples.java8Examples.functionalInterfaces;
 
+import java.util.Collection;
+
 /**
  * Created by johnminchuk on 3/23/16.
  */
