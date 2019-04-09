@@ -22,7 +22,7 @@ public class Test {
     public static void main(String args[]) {
         Test t1 = new Test();
         t1.foo.add("bruh");
-        //t1.foo = new ArrayList();
+        //t1.foo = new ArrayList();       //can't do this it's final!
 
         Test t2 = new Test();
         t1.foo.add("bruh");
