@@ -2,7 +2,9 @@ package net.largepixels.binary;
 
 public class BinaryEx01 {
 
-
+    /*
+    Java Examples from https://catonmat.net/low-level-bit-hacks
+     */
 
     public static void main(String[] args) {
         BinaryEx01 binaryEx01 = new BinaryEx01();
