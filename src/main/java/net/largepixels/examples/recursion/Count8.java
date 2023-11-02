@@ -1,7 +1,5 @@
 package net.largepixels.examples.recursion;
 
-import sun.jvm.hotspot.utilities.Assert;
-
 /**
  * Created by johnminchuk on 4/8/19.
  */

@@ -1,7 +1,5 @@
 package net.largepixels.examples;
 
-import com.sun.tools.javac.jvm.Gen;
-
 /**
  * Created by johnminchuk on 2/10/16.
  */

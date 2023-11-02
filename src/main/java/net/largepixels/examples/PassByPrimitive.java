@@ -8,6 +8,8 @@ public class PassByPrimitive {
     private void runMe() {
         int a = 123;
 
+        updateIt(a);
+
         System.out.println(a);
     }
 

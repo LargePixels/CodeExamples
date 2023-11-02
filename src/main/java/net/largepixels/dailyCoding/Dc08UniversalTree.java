@@ -12,10 +12,12 @@ public class Dc08UniversalTree {
 
     private void runMe() {
 
+        /*  Java 8 has some kind of issue here...
         Node<Integer> head = new Node(0, new Node(1, null, null), new Node(0, new Node(1, new Node(1), new Node(1)), new Node(0)));
         BTreePrinter.printNode(head);
 
         System.out.println(countUniversalSubtrees(head));
+        */
 
     }
 
